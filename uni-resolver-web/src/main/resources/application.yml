@@ -287,3 +287,7 @@ uniresolver:
       url: http://driver-did-algo:9091/
       testIdentifiers:
         - did:algo:c93fdef1-8a0a-4c65-8c54-fd33117c9e82
+    - pattern: "^(did:prism:.+)$"
+      url: https://resolver.atalaprism.io/$1
+      testIdentifiers:
+        - did:prism:9a5657dce74c5c05bce98eb5c93e9b4dd4a8be550b59e212cc31ea06ed494089
